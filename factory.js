@@ -21,7 +21,7 @@ function AnimalCall(){
 function getAnimalCall(){
     var animal = new AnimalCall();
     var call = animal.createAnimalCall(anim.value);
-    console.log(call);
+    console.log("This animal says " + call);
 };
 
 var anim = document.getElementById('animal');
