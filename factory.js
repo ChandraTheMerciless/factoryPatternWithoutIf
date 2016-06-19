@@ -10,7 +10,7 @@ function AnimalCall(){
     };
 
     function createAnimalCall(animal){
-        return animals[animal] || "mysterious animal call";
+        return animals[animal] || "a mysterious animal call";
     };
 
     return {
